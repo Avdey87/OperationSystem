@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Operation System</string>
+    <string name="home_text">An operating system (OS) is system software that manages computer hardware and software resources and provides common services for computer programs.
+
+Time-sharing operating systems schedule tasks for efficient use of the system and may also include accounting software for cost allocation of processor time, mass storage, printing, and other resources.
+
+For hardware functions such as input and output and memory allocation, the operating system acts as an intermediary between programs and the computer hardware,[1][2] although the application code is usually executed directly by the hardware and frequently makes system calls to an OS function or is interrupted by it. Operating systems are found on many devices that contain a computer – from cellular phones and video game consoles to web servers and supercomputers.</string>
+
+    <string name="home_tab">Home</string>
+    <string name="windows_tab">windows</string>
+    <string name="linux_tab">Linux</string>
+    <string name="macos_tab">Mac OS</string>
+    <string name="name_hint">Please enter your name</string>
+    <string name="choose_hint">Please enter your choose</string>
+    <string name="company_name">Operation System</string>
+    <string name="create_order_title">Create order</string>
+    <string name="operationsystem_image">Operaion System image</string>
+    <string name="title_top">Top fragment</string>
+    <string name="action_share">Share</string>
+
+    <string-array name="windows_version">
+        <item>Windows XP</item>
+        <item>Windows 7</item>
+        <item>Windows 10</item>
+    </string-array>
+
+    <string-array name="linux_version">
+        <item>Ubuntu</item>
+        <item>Red Hat</item>
+        <item>Fedora</item>
+    </string-array>
+
+    <string-array name="macos_version">
+        <item>Sierra</item>
+        <item>High Sierra</item>
+        <item>Mojave</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
