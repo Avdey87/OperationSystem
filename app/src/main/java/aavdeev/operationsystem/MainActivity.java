@@ -42,6 +42,16 @@ public class MainActivity extends AppCompatActivity {
         setShareActionIntent("Want to join me for os");
         return super.onCreateOptionsMenu(menu);
     }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.choose_create:
+                Intent intent = new Intent(this, OrderActivity.class);
+                startActivity(intent);
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
     public void setShareActionIntent(String text) {
         Intent intent = new Intent(Intent.ACTION_SEND);
@@ -51,15 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.choose_create:
-                Intent intent = new Intent(this, OrderActivity.class);
-                startActivity(intent);
-                default:
-                    return super.onOptionsItemSelected(item);
-        }
-    }
+
 
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
         public SectionsPagerAdapter(FragmentManager fm) {
